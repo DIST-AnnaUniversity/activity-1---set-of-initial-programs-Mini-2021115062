@@ -59,6 +59,6 @@ def num(a,b):
         return a
     else:
         print(a,end=" ")
-        return(num(a+2),b)
+        return(num(a+2,b))
 num(0,10)
 
